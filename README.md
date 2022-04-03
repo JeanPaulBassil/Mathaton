@@ -1,5 +1,5 @@
 # Mathathon 
-## By Jean-Paul Bassil
+## By Jean-Paul Bassil.
 
 
 Mathathon is a math minigame for first graders to practice their math skills.
