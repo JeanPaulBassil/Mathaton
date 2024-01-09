@@ -1,14 +1,38 @@
-# Mathathon 
-## By Jean-Paul Bassil.
+# Mathathon
 
+Mathathon is an interactive Python-based mathematics quiz game designed to test and improve your arithmetic skills. With a variety of difficulty levels and modes, it offers a fun and challenging experience for users of all ages.
 
-Mathathon is a math minigame for first graders to practice their math skills.
-what it does: 
-* The user has the choice between 3 difficulties that increase the range of the numbers generated progressively.
-* The app saves stats like level, score, difficulty ect..
-* The reward score increases with the difficulty.
-* The user has the choice between practice mode and test mode.
-  - Practice mode lets the user enjoy all the perks of test mode but without registering any scores or levels.
-  - Test mode lets the user chose the number of questions and the operations ( +, -, *, /) of the test.
-  - The user can also choose the random mode which generates operations randomly and allows them to use all the operations in one test.
-* The user has the option to resets their stats.
+## Features
+
+- **Multiple Difficulty Levels**: Easy, Medium, and Hard.
+- **Various Modes of Operation**: Practice addition, subtraction, multiplication, division, or a random mix.
+- **Level Progression**: Earn points and level up by answering correctly.
+- **Stat Tracking**: Keep track of your score and level.
+
+## Installation
+
+To run Mathathon, you need Python installed on your computer. If you don't have Python installed, download and install it from [python.org](https://www.python.org/downloads/).
+
+## Getting Started
+
+1. Clone this repository or download the source code.
+2. Navigate to the directory containing the game files.
+3. Run the command `python main.py` to start the game.
+
+## How to Play
+
+- On launching the game, you will be presented with the main menu.
+- Choose to start playing, change difficulty, view your stats, reset your stats, or exit the game.
+- In play mode, choose between Practice or Test mode.
+- Follow the on-screen instructions to answer the math questions.
+- Your progress will be automatically saved as you play.
+
+## Modules
+
+The game is structured into different modules:
+
+- `main.py`: The entry point of the application.
+- `game_logic.py`: Contains the core game functions.
+- `utils.py`: Utility functions for data handling and input validation.
+- `settings.py`: Manages game settings and configurations.
+- `ui.py`: Handles all user interface elements.
